@@ -127,7 +127,7 @@ public class WordTracker {
 			word.getOccurrences().forEach((fileName, lines) -> {
 				line[0] = line[0] + fileName + ", ";
 			});
-			report.add(line.toString());
+			report.add(line[0]);
 		}
 		return report;
 	}

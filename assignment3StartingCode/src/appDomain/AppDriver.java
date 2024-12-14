@@ -30,10 +30,10 @@ public class AppDriver {
 		List<String> report = null;
 		switch (option) {
 			case "-pf":
-				report = tracker.getReport();
+				report = tracker.getFileReport();
 				break;
 			case "-pl":
-				report = tracker.getFileReport();
+				report = tracker.getReport();
 				break;
 			case "-po":
 				report = tracker.getDetailedReport();
