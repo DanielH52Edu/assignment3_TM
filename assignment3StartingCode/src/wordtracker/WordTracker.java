@@ -16,6 +16,9 @@ import java.util.Scanner;
  */
 public class WordTracker {
 
+	/**
+	 * The binary search tree of words.
+	 */
 	private BSTree<Word> bst;
 
 	/**

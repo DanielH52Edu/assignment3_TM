@@ -11,7 +11,15 @@ import java.util.NoSuchElementException;
  * @param <T> the type of comparable elements in the tree. (Must be comparable)
  */
 public class BSTree<T extends Comparable<T>> implements BSTreeADT<T> {
+
+	/**
+	 * The root node of the binary search tree.
+	 */
 	private BSTreeNode<T> root;
+
+	/**
+	 * The number of elements in the binary search tree.
+	 */
 	private int size;
 
 	/**

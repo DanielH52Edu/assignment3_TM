@@ -8,8 +8,20 @@ import java.io.Serializable;
  * @param <T> the type of elements in the node, which must be comparable
  */
 public class BSTreeNode<T extends Comparable<T>> implements Serializable {
+
+	/**
+	 * The element stored in the node.
+	 */
 	private T element;
+
+	/**
+	 * The left child of the node.
+	 */
 	private BSTreeNode<T> left;
+
+	/**
+	 * The right child of the node.
+	 */
 	private BSTreeNode<T> right;
 
 	/**

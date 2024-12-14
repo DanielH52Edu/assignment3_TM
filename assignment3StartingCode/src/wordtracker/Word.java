@@ -10,8 +10,20 @@ import java.util.Set;
  * The Word class represents a word and its occurrences in various files.
  */
 public class Word implements Comparable<Word>, Serializable {
+
+	/**
+	 * The serial version UID.
+	 */
 	private static final long serialVersionUID = 1L;
+
+	/**
+	 * The word being tracked.
+	 */
 	private String word;
+
+	/**
+	 * A map of occurrences of the word. (This is a map of file names to line numbers.)
+	 */
 	private Map<String, Set<Integer>> occurrences;
 
 	/**
